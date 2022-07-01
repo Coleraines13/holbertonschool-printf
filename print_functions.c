@@ -15,3 +15,30 @@ int p_char(va_list arg)
 
 	return (1);
 }
+
+/**
+ * p_str - prints string s
+ * @arg: string to print
+ * Return: number of characters printed
+ */
+
+int p_str(va_list arg)
+{
+	unsigned int i;
+	char *s;
+
+	s = va_arg(arg, char *);
+
+	i = 0;
+
+	if (s == NULL)
+		s = "null";
+
+	while (s[i] != '\0')
+	{
+		_putchar(s[i]);
+		i++;
+	}
+
+	return (i);
+}
