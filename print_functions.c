@@ -59,7 +59,7 @@ int p_dec(va_list arg)
 	int exp = 1;
 	int i = 1;
 
-	n = m / 10;
+	n = n / 10;
 	num = n;
 
 	if (last < 0)
