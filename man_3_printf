@@ -1,6 +1,6 @@
 Man Page for print f
 
-The function _printf is a variadic function that makes a string according to a
+The function _printf is a variadic function that makes a string based on a
 .I format
 Then will print it to the standard output kind of like the C standard library function printf. It can bring in a variable number of arguments.
 This function has been created to articulate the function of printf.
